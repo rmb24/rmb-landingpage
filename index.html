@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Boxicons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Zona 3 - Café</title>
+  </head>
+  <body>
+    <!--Header-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Zona 3 - Café</a>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link active">Inicio</a>
+            </li>
+            <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Sobre nosotros</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--Main-->
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home" id="home">
+          <div class="home__container bd-grid">
+              <div class="home__img">
+                  <img src="assets/img/img1.png" alt="" data-speed="-2" class="move">
+              </div>
+
+              <div class="home__data">
+                  <h1 class="home__title">Zona 3</h1>
+                  <p class="home__description">El mejor café como debe ser</p>
+                  <a href="#" class="home__button">Ver Menu</a>
+              </div>
+          </div>
+      </section>
+      <!--===== MENU =====-->
+      <section class="menu section" id="menu">
+        <h2 class="section-title">Menu</h2>
+
+        <div class="menu__container bd-grid">
+
+          <div class="menu__content">
+            <!--Desayuno-->
+            <div class="menu__content-menu active" id="desayuno">
+              <div class="menu__content-menu-img">
+                <img src="assets/img/img2.png" alt="" />
+              </div>
+              <div class="menu__content-menu-data">
+                <h3 class="menu__content-menu-title">Café con leche</h3>
+                <span class="menu__content-menu-price">$ 2.000</span>
+                <p class="menu__content-menu-description">
+                  Café con leche y azúcar
+                </p>
+              </div>
+            </div>
+            <!--Almuerzo-->
+            <div class="menu__content-menu" id="almuerzo">
+              <div class="menu__content-menu-img">
+                <img src="assets/img/img3.png" alt="" />
+              </div>
+              <div class="menu__content-menu-data">
+                <h3 class="menu__content-menu-title">Café con leche</h3>
+                <span class="menu__content-menu-price">$ 2.000</span>
+                <p class="menu__content-menu-description">
+                  Café con leche y azúcar
+                </p>
+              </div>
+            </div>
+            <!--Cena-->
+            <div class="menu__content-menu" id="cena">
+              <div class="menu__content-menu-img">
+                <img src="assets/img/img4.png" alt="" />
+              </div>
+              <div class="menu__content-menu-data">
+                <h3 class="menu__content-menu-title">Café con leche</h3>
+                <span class="menu__content-menu-price">$ 2.000</span>
+                <p class="menu__content-menu-description">
+                  Café con leche y azúcar
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu__sidebar">
+            <div class="menu__sidebar-category">
+              <button class="menu__sidebar-category-btn active" id="desayuno-btn">
+                Desayuno
+              </button>
+              <button class="menu__sidebar-category-btn" id="almuerzo-btn">
+                Almuerzo
+              </button>
+              <button class="menu__sidebar-category-btn" id="cena-btn">
+                Cena
+              </button>
+            </div>
+
+            <div class="menu__sidebar-search">
+              <input
+                type="text"
+                placeholder="Buscar..."
+                class="menu__sidebar-search-input"
+              />
+              <i class="bx bx-search menu__sidebar-search-icon"></i>
+
+              <div class="menu__sidebar-search-menu">
+                <div class="menu__sidebar-search-menu-data">
+                  <h3 class="menu__sidebar-search-menu-title">
+                    Café con leche
+                  </h3>
+                  <span class="menu__sidebar-search-menu-price">$ 2.000</span>
+                  <p class="menu__sidebar-search-menu-description">
+                    Café con leche y azúcar
+                  </p>
+                </div>
+
+                <div class="menu__sidebar-search-menu-data">
+                  <h3 class="menu__sidebar-search-menu-title">
+                    Café con leche
+                  </h3>
+                  <span class="menu__sidebar-search-menu-price">$ 2.000</span>
+                  <p class="menu__sidebar-search-menu-description">
+                    Café con leche y azúcar
+                  </p>
+
+
+                </div>
+
+                <div class="menu__sidebar-search-menu-data">
+                  <h3 class="menu__sidebar-search-menu-title">
+                    Café con leche
+                  </h3>
+                  <span class="menu__sidebar-search-menu-price">$ 2.000</span>
+                  <p class="menu__sidebar-search-menu-description">
+                    Café con leche y azúcar
+                  </p>
+
+                  
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">Sobre nosotros</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets/img/img5.png" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">Zona 3</h2>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              voluptas, quod, quia, voluptates quae voluptatibus quibusdam
+              accusantium quidem quas dolorum quos. Quisquam, quae. Quisquam
+              voluptas, quod, quia, voluptates quae voluptatibus quibusdam
+              accusantium quidem quas dolorum quos. Quisquam, quae.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contacto</h2>
+
+        <div class="contact__container bd-grid">
+          <div class="contact__info">
+            <h3 class="contact__subtitle">Información de contacto</h3>
+
+            <div>
+              <span class="contact__text"
+                ><i class="bx bx-map contact__icon"></i>Margarito González Rubio 3A, Centro, 48900 Autlán de Navarro, Jal.</span
+              >
+            </div>
+
+            <div>
+              <span class="contact__text"
+                ><i class="bx bx-phone contact__icon"></i> +52 317 382 2492</span
+              >
+            </div>
+            <!-- Redes sociales -->
+            <div>
+              <a href="https://es-la.facebook.com/zona3autlan/" target="_blank" class="contact__social"
+                ><i class="bx bxl-facebook-circle social-icon"></i
+              ></a>
+              <a href="https://www.instagram.com/zona3rc/" target="_blank" class="contact__social"
+                ><i class="bx bxl-instagram social-icon"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+  </main>
+
+    <!--GSAP-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <!--Main.js-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
